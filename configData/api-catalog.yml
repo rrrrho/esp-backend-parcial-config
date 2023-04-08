@@ -8,7 +8,7 @@ spring:
   data:
     mongodb:
       database: catalog-dev
-      port: 27017
+      port: 27018
   eureka:
     client:
       registerWithEureka: true
