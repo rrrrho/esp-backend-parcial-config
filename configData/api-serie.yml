@@ -5,7 +5,7 @@ spring:
     name: serie-service
   data:
     mongodb:
-      database: serie-dev
+      authentication-database: serie-dev
       port: 27017
       host: localhost
       username: usr-series
