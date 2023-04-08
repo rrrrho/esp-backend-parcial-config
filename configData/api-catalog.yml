@@ -9,6 +9,11 @@ spring:
     mongodb:
       database: catalog-dev
       port: 27018
+      authentication-database: admin
+      authSource: admin
+      host: localhost
+      username: usr-catalog
+      password: pwd-catalog
   eureka:
     client:
       registerWithEureka: true
