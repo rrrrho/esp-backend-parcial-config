@@ -6,9 +6,10 @@ spring:
   data:
     mongodb:
       database: serie-dev
+      authentication-database: admin
+      authSource: admin
       port: 27017
       host: localhost
-      authentication-database: usr-series
       username: usr-series
       password: pwd-series
   zipkin:
