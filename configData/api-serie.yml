@@ -5,9 +5,10 @@ spring:
     name: serie-service
   data:
     mongodb:
-      authentication-database: serie-dev
+      database: serie-dev
       port: 27017
       host: localhost
+      authentication-database: usr-series
       username: usr-series
       password: pwd-series
   zipkin:
